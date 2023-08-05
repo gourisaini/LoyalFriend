@@ -12,6 +12,10 @@ body {
     font-family: 'montserrat';
 }
 
+#mobile{
+    display: none;
+}
+
 #main {
     width: 100%;
     height: 90%;
@@ -30,7 +34,6 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     font-family: sans-serif;
-    /* color: rgb(88, 88, 68); */
     color: white;
 }
 
@@ -71,7 +74,6 @@ nav ul li{
 }
 
 nav ul li:first-child,nav ul li:hover{
-    /* color: white; */
     background-color: teal;
 }
 
@@ -101,12 +103,10 @@ nav input{
     font-weight: 100;
     font-family: 'Lobster', cursive;
     font-size: 2.9vmax;
-    /* text-align: end; */
 }
 
 #center #image{
     border: 4px solid teal;
-    /* margin-right: 5vmax; */
     width: 250px;
     height: 200px;
     background-image: url(https://images.unsplash.com/photo-1553322378-eb94e5966b0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
@@ -138,7 +138,6 @@ section{
     padding: 3vmax 0;
     width: 100%;
     background-color: #dfdfdf;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,8 +188,6 @@ section h1{
     background: grey;
     border-radius: 5px;
     position: relative;
-    animation: fillBars 2.5s;
-    animation-delay: 2s;
 }
 
 .skill-per::before{
@@ -222,7 +219,6 @@ button{
     padding: 0.5vmax 2vmax;
     font-weight: 600;
     color: white;
-    /* background-color: #e85635; */
     background-color: teal;
     border: none;
     font-size: 1vmax;
@@ -288,7 +284,6 @@ button:hover{
 
 #box2 .block2 a{
     text-decoration: none;
-    /* color: #e85635; */
     color: #8bc83d;
     font-size: 0.8vmax;
     font-weight: 500;
@@ -399,12 +394,33 @@ footer ul li:hover{
   line-height: 1.4vmax;
   font-size: 0.9vmax;
 }
-@keyframes fillBars {
-    from{
-        width: 0;
-    }
-    to{
-        width: 100%;
-    }
-}
 
+
+@media (max-width: 1080px) {
+    #mobile{
+        display: flex;
+        text-align: center;
+        padding: 5vmax;
+        margin: auto;
+    }
+
+    #main{
+        display: none;
+    }
+ 
+    section{
+        display: none;
+    }
+
+    .middle{
+        display: none;
+    }
+
+    #form{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    } */
+}
