@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loyal Friend</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="main">
         <nav>
-            <div style="display: inline-flex; align-items: center;">
+            <div id="navImage">
                 <img src="assets/logo.jpeg" alt="">
             </div>
             <ul>
@@ -23,9 +23,10 @@
                 <li>Webiners</li>
                 <li>about us</li>
             </ul>
-            <div>
-                <h4 style="font-weight: 600;">Cart <i class="ri-shopping-cart-fill"></i> 0 items</h4>
-                <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Search"/>
+            <div id="forMobile">
+                <i class="ri-search-line"></i>
+                <i class="ri-menu-fill"></i>
             </div>
         </nav>
         <div id="center">
@@ -36,16 +37,16 @@
                 </div>
             </div>
             <h1>Healthy & long life <br>for your dog, naturally... </h1>
-        </div>
+        </div>    
     </div>
 
     <section>
         <h4>Healthy life style and natural healthcare</h4>
         <h1 style="padding-top: 0.5vmax;">will add years to your dog's life</h1>
     </section>
-    
+
     <div class="middle">
-        <div class="skills">
+        <div>
             <div class="skill">
                 <div class="skill-name">Average dog's life span</div>
                 <div class="skill-bar">
@@ -120,7 +121,6 @@
                     <li>Diseases</li>
                     <li>Nutrition</li>
                 </ul>
-
                 <h4>Care</h4>
                 <ul>
                     <li>Hair Testing</li>
@@ -129,7 +129,6 @@
                     <li>Immune System</li>
                     <li>Liver Cleanse</li>
                 </ul>
-
                 <h4>Disease prevention</h4>
                 <ul>
                     <li>Allergies</li>
@@ -206,12 +205,10 @@
         </ul>
         <h5 style="font-weight: 400;">Dr. Gouri Healing Solutions Inc.</h5>
     </footer>
-
-    <div id="mobile">
-        <h1>I regret to inform you that the website is currently not optimized for mobile phones</h1>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js"
+        integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
         integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
